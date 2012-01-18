@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		804B9CC114C638AE00734003 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804B9CC014C638AE00734003 /* UIKit.framework */; };
+		804B9CC314C638AE00734003 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804B9CC214C638AE00734003 /* Foundation.framework */; };
+		804B9CC514C638AE00734003 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804B9CC414C638AE00734003 /* CoreGraphics.framework */; };
+		804B9CCB14C638AE00734003 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 804B9CC914C638AE00734003 /* InfoPlist.strings */; };
+		804B9CCD14C638AE00734003 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 804B9CCC14C638AE00734003 /* main.m */; };
+		804B9CD114C638AE00734003 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 804B9CD014C638AE00734003 /* AppDelegate.m */; };
+		804B9CD414C638AE00734003 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804B9CD214C638AE00734003 /* MainStoryboard.storyboard */; };
+		804B9CD714C638AE00734003 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804B9CD614C638AE00734003 /* ViewController.m */; };
+		804B9CDE14C63CA400734003 /* UpDownButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 804B9CDD14C63CA400734003 /* UpDownButton.png */; };
+		804B9CE114C6434D00734003 /* HeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 804B9CE014C6434D00734003 /* HeaderCell.m */; };
+		8095FCCD14C64380004B7779 /* RegularCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8095FCCC14C64380004B7779 /* RegularCell.m */; };
+		8095FCD014C6438D004B7779 /* SelectedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8095FCCF14C6438D004B7779 /* SelectedCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		804B9CBC14C638AE00734003 /* AccordionTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccordionTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		804B9CC014C638AE00734003 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		804B9CC214C638AE00734003 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		804B9CC414C638AE00734003 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		804B9CC814C638AE00734003 /* AccordionTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AccordionTableView-Info.plist"; sourceTree = "<group>"; };
+		804B9CCA14C638AE00734003 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		804B9CCC14C638AE00734003 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		804B9CCE14C638AE00734003 /* AccordionTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AccordionTableView-Prefix.pch"; sourceTree = "<group>"; };
+		804B9CCF14C638AE00734003 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		804B9CD014C638AE00734003 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		804B9CD314C638AE00734003 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		804B9CD514C638AE00734003 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		804B9CD614C638AE00734003 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		804B9CDD14C63CA400734003 /* UpDownButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UpDownButton.png; sourceTree = "<group>"; };
+		804B9CDF14C6434D00734003 /* HeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderCell.h; sourceTree = "<group>"; };
+		804B9CE014C6434D00734003 /* HeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderCell.m; sourceTree = "<group>"; };
+		8095FCCB14C64380004B7779 /* RegularCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularCell.h; sourceTree = "<group>"; };
+		8095FCCC14C64380004B7779 /* RegularCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularCell.m; sourceTree = "<group>"; };
+		8095FCCE14C6438D004B7779 /* SelectedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedCell.h; sourceTree = "<group>"; };
+		8095FCCF14C6438D004B7779 /* SelectedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		804B9CB914C638AE00734003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804B9CC114C638AE00734003 /* UIKit.framework in Frameworks */,
+				804B9CC314C638AE00734003 /* Foundation.framework in Frameworks */,
+				804B9CC514C638AE00734003 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		804B9CB114C638AE00734003 = {
+			isa = PBXGroup;
+			children = (
+				804B9CC614C638AE00734003 /* AccordionTableView */,
+				804B9CBF14C638AE00734003 /* Frameworks */,
+				804B9CBD14C638AE00734003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		804B9CBD14C638AE00734003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				804B9CBC14C638AE00734003 /* AccordionTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		804B9CBF14C638AE00734003 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				804B9CC014C638AE00734003 /* UIKit.framework */,
+				804B9CC214C638AE00734003 /* Foundation.framework */,
+				804B9CC414C638AE00734003 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		804B9CC614C638AE00734003 /* AccordionTableView */ = {
+			isa = PBXGroup;
+			children = (
+				8095FCCE14C6438D004B7779 /* SelectedCell.h */,
+				8095FCCF14C6438D004B7779 /* SelectedCell.m */,
+				8095FCCB14C64380004B7779 /* RegularCell.h */,
+				8095FCCC14C64380004B7779 /* RegularCell.m */,
+				804B9CDF14C6434D00734003 /* HeaderCell.h */,
+				804B9CE014C6434D00734003 /* HeaderCell.m */,
+				804B9CDD14C63CA400734003 /* UpDownButton.png */,
+				804B9CCF14C638AE00734003 /* AppDelegate.h */,
+				804B9CD014C638AE00734003 /* AppDelegate.m */,
+				804B9CD214C638AE00734003 /* MainStoryboard.storyboard */,
+				804B9CD514C638AE00734003 /* ViewController.h */,
+				804B9CD614C638AE00734003 /* ViewController.m */,
+				804B9CC714C638AE00734003 /* Supporting Files */,
+			);
+			path = AccordionTableView;
+			sourceTree = "<group>";
+		};
+		804B9CC714C638AE00734003 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				804B9CC814C638AE00734003 /* AccordionTableView-Info.plist */,
+				804B9CC914C638AE00734003 /* InfoPlist.strings */,
+				804B9CCC14C638AE00734003 /* main.m */,
+				804B9CCE14C638AE00734003 /* AccordionTableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		804B9CBB14C638AE00734003 /* AccordionTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 804B9CDA14C638AF00734003 /* Build configuration list for PBXNativeTarget "AccordionTableView" */;
+			buildPhases = (
+				804B9CB814C638AE00734003 /* Sources */,
+				804B9CB914C638AE00734003 /* Frameworks */,
+				804B9CBA14C638AE00734003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AccordionTableView;
+			productName = AccordionTableView;
+			productReference = 804B9CBC14C638AE00734003 /* AccordionTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		804B9CB314C638AE00734003 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 804B9CB614C638AE00734003 /* Build configuration list for PBXProject "AccordionTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 804B9CB114C638AE00734003;
+			productRefGroup = 804B9CBD14C638AE00734003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				804B9CBB14C638AE00734003 /* AccordionTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		804B9CBA14C638AE00734003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804B9CCB14C638AE00734003 /* InfoPlist.strings in Resources */,
+				804B9CD414C638AE00734003 /* MainStoryboard.storyboard in Resources */,
+				804B9CDE14C63CA400734003 /* UpDownButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		804B9CB814C638AE00734003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804B9CCD14C638AE00734003 /* main.m in Sources */,
+				804B9CD114C638AE00734003 /* AppDelegate.m in Sources */,
+				804B9CD714C638AE00734003 /* ViewController.m in Sources */,
+				804B9CE114C6434D00734003 /* HeaderCell.m in Sources */,
+				8095FCCD14C64380004B7779 /* RegularCell.m in Sources */,
+				8095FCD014C6438D004B7779 /* SelectedCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		804B9CC914C638AE00734003 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				804B9CCA14C638AE00734003 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		804B9CD214C638AE00734003 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				804B9CD314C638AE00734003 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		804B9CD814C638AF00734003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		804B9CD914C638AF00734003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		804B9CDB14C638AF00734003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccordionTableView/AccordionTableView-Prefix.pch";
+				INFOPLIST_FILE = "AccordionTableView/AccordionTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		804B9CDC14C638AF00734003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccordionTableView/AccordionTableView-Prefix.pch";
+				INFOPLIST_FILE = "AccordionTableView/AccordionTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		804B9CB614C638AE00734003 /* Build configuration list for PBXProject "AccordionTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804B9CD814C638AF00734003 /* Debug */,
+				804B9CD914C638AF00734003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		804B9CDA14C638AF00734003 /* Build configuration list for PBXNativeTarget "AccordionTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804B9CDB14C638AF00734003 /* Debug */,
+				804B9CDC14C638AF00734003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 804B9CB314C638AE00734003 /* Project object */;
+}
